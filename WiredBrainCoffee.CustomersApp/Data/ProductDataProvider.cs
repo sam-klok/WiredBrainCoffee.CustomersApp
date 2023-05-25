@@ -18,10 +18,10 @@ namespace WiredBrainCoffee.CustomersApp.Data
       return new List<Product>
       {
         new Product{Name="Cappuccino",Description="Espresso with milk and milk foam"},
-        new Product{Name="Doppio",Description="Double espresso"},
+        new Product{Name="Doppio",Description="Double espresso",Comment="Popular"},
         new Product{Name="Espresso",Description="Pure coffee to keep you awake! :-)"},
         new Product{Name="Latte",Description="Cappuccino with more streamed milk"},
-        new Product{Name="Macchiato",Description="Espresso with milk foam"},
+        new Product{Name="Macchiato",Description="Espresso with milk foam",Comment="Tasty"},
         new Product{Name="Mocha",Description="Espresso with hot chocolate and milk foam"}
       };
     }
